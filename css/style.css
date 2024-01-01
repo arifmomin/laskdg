@@ -1,0 +1,164 @@
+/* =======================font link start======================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* ----------------------font link end------------------------- */
+
+/* =======================common css start======================= */
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    padding: 0%;
+    margin: 0%;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+/* -----------------------common css end---------------------- */
+/* ========================css variable start======================= */
+:root{
+    --brand_color: #F46B5B;
+    --poppins: 'Poppins', sans-serif;
+    --black:#383838;
+}
+
+/* ----------------------css variable end------------------------ */
+/* ========================header part start========================= */
+header{
+    background: #;
+}
+.header_row{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #A7A7A7;
+}
+.header_col .header_social_icon{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.header_col .header_social_icon a i{
+    font-size: 20px;
+    color: #A7A7A7;
+}
+.header_contact a span i{
+    font-size: 20px;
+    color: var(--brand_color);
+    margin-right: 16px;
+}
+.header_contact{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.header_contact a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: var(--black);
+}
+
+/* ------------------------header part end----------------------- */
+/* ========================menu part start========================= */
+.menu_bar{
+    background: #252525;
+}
+.menu_bar .menu_logo{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+}
+.dashboard {
+    width: 48px;
+    height: 48px;
+    background: rgba(208, 208, 210, 0.25);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 216px;
+}
+.search_box{
+    width: 600px;
+    height: 48px;
+    background: rgba(208, 208, 210, 0.25);
+    border-radius: 8px 0px 0px 8px;
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+}
+.search_box input{
+    border: none;
+    background: transparent;
+}
+input::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--poppins);
+    color: #A7A7A7;
+}
+.search_icon{
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F46B5B;
+    border-radius: 0px 8px 8px 0px;
+}
+.search_icon i{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.bg-black-3 {
+    --tw-bg-opacity: 1;
+    background-color: #252525;
+}
+
+
+
+
+
+
+
+
+
+/* ------------------------menu part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
+/* ========================header part start========================= */
+
+/* ------------------------header part end----------------------- */
